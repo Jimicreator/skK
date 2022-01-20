@@ -136,7 +136,7 @@ async def stream(client, m: Message):
         else:
             await msg.edit("🔄 `Starting Live Video Stream ...`")
             link = query
-            thumb = "https://telegra.ph/file/3e14128ad5c9ec47801bd.jpg"
+            thumb = "https://telegra.ph/file/7365041109d0af882e513.jpg"
 
         vid_call = VIDEO_CALL.get(chat_id)
         if vid_call:
