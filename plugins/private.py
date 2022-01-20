@@ -33,14 +33,14 @@ async def start(client, message):
             ],
             [
                 InlineKeyboardButton("📢 CHANNEL", url=f"https://t.me/{UPDATES_CHANNEL}"),
-                InlineKeyboardButton("SOURCE 📦", url=f"https://github.com/AsmSafone/VideoPlayerBot"),
+                InlineKeyboardButton("SOURCE 📦", url=f"https://github.com/"),
             ],
             [
                 InlineKeyboardButton("🤖 ABOUT", callback_data="about"),
                 InlineKeyboardButton("CLOSE 🔒", callback_data="close"),
             ],
             [
-               InlineKeyboardButton("➕ ADD ME TO YOUR GROUP ➕", url=f"https://t.me/{USERNAME}?startgroup=true"),
+               InlineKeyboardButton("➕ ADD This Bot TO YOUR GROUP ➕", url=f"https://t.me/{USERNAME}?startgroup=true"),
             ]
             ]
    reply_markup = InlineKeyboardMarkup(buttons)
@@ -93,14 +93,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],
             [
                 InlineKeyboardButton("📢 CHANNEL", url=f"https://t.me/{UPDATES_CHANNEL}"),
-                InlineKeyboardButton("SOURCE 📦", url=f"https://github.com/AsmSafone/VideoPlayerBot"),
+                InlineKeyboardButton("SOURCE 📦", url=f"https://github.com/"),
             ],
             [
                 InlineKeyboardButton("🤖 ABOUT", callback_data="about"),
                 InlineKeyboardButton("CLOSE 🔒", callback_data="close"),
             ],
             [
-               InlineKeyboardButton("➕ ADD ME TO YOUR GROUP ➕", url=f"https://t.me/{USERNAME}?startgroup=true"),
+               InlineKeyboardButton("➕ ADD This Bot TO YOUR GROUP ➕", url=f"https://t.me/{USERNAME}?startgroup=true"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
