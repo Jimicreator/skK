@@ -188,7 +188,7 @@ async def stream(client, m: Message):
             lel = await client.download_media(lol['file_id'])
             thumb = lel
         else:
-            thumb = "https://telegra.ph/file/62e86d8aadde9a8cbf9c2.jpg"
+            thumb = "https://telegra.ph/file/7365041109d0af882e513.jpg"
 
         video = await client.download_media(media)
 
@@ -212,7 +212,7 @@ async def stream(client, m: Message):
             await msg.delete()
             await m.reply_photo(
                photo=thumb,
-               caption=f"▶️ **Started [Video Streaming](https://t.me/AsmSafone) In {m.chat.title} !**",
+               caption=f"▶️ **Started [Video Streaming](https://t.me/Movies_1st_On_Telegram) In {m.chat.title} !**",
                reply_markup=InlineKeyboardMarkup(
                [
                    [
@@ -304,7 +304,7 @@ async def endstream(client, m: Message):
         await msg.edit("⏹️ **Stopped Video Streaming !**")
 
     else:
-        await msg.edit("🤖 **Please Start An Stream First !**")
+        await msg.edit("🤖 **Please Start An Stream First Dude !**")
 
 
 # pytgcalls handlers
